@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrincipalActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ecorecicla"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú Principal"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:fontFamily="@font/dancingscrip"
+        android:textColor="#00722e"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/baseline_addchart_24"
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/btnEstadistica"
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#80cbc4"
+            android:text="Estadística"
+            android:textColor="#00722e"
+            android:textSize="35dp"
+            app:cornerRadius="0dp" />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/baseline_category_24"
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/btnCategoria"
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#80cbc4"
+            android:text="Categorias"
+            android:textColor="#00722e"
+            android:textSize="35dp"
+            app:cornerRadius="0dp" />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/baseline_cloud_done_24"
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/btnConsejo"
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#80cbc4"
+            android:text="Consejos"
+            android:textColor="#00722e"
+            android:textSize="35dp"
+            app:cornerRadius="0dp" />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ecorecicla_pie"/>
+</LinearLayout>

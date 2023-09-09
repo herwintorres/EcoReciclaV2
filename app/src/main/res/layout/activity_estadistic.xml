@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EstadisticActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ecorecicla"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/baseline_addchart_24"
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/btnVistaEstadistica2"
+            android:layout_width="230dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#80cbc4"
+            android:text="Estadística"
+            android:textColor="#00722e"
+            android:textSize="35dp"
+            app:cornerRadius="0dp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableStadistica"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tbtext1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="#48CC4D"
+                android:backgroundTint="#48CC4D"
+                android:text="Mes"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tbtext2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:background="#48CC4D"
+                android:text="Tipo"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tbtext3"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:background="#48CC4D"
+                android:text="Peso"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tbtext4"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:background="#48CC4D"
+                android:text="Precio"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
+
+</LinearLayout>
